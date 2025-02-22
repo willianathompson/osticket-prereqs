@@ -35,8 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-1
-Sign in to Azure and create a virtual machine (VM) within a resource group. Choose Windows 10 as the opeating system and select the VM size, region and configure a username and password to access the VM. Ensure the Public IP Address is enabled as it will be required. Set up Remote Desktop Protocol (RDP) access to connect to the windows VM. Use the Public IP Address for your VM to connect to the VM through the RDP.  
+The Windows 10 Virtual Machine was successfully created in Azure, with the appropriate VM size, region, and configuration settings. Public IP was enabled, and RDP access was set up for remote connection. The VM was deployed and is ready for use.  
 </p>
 <br />
 
@@ -44,37 +43,7 @@ Sign in to Azure and create a virtual machine (VM) within a resource group. Choo
 
 </p>
 <p>
-2
-Install IIS (Internet Information Services) through the control panel > programs and features > Turn Windows features on or off. Check the IIS and click okay to install the IIS. IIS will be sep up on the Windows 10 VM.
-
-
-Install PHP
-
-Install PHP:
-Download PHP from the official PHP for Windows page. Choose the thread-safe version (VC15 x64) for Windows.
-Extract the downloaded PHP ZIP file to a folder, e.g., C:\PHP.
-Edit the php.ini file (make a copy of php.ini-development as php.ini), and enable the required extensions such as mysqli, pdo_mysql, and mbstring.
-In IIS, configure PHP by adding the PHP handler via IIS Manager under Handler Mappings.
-Verify PHP is working by creating a phpinfo.php file in the wwwroot folder (usually located at C:\inetpub\wwwroot) with the following content:
-php
-Copy
-<?php
-phpinfo();
-?>
-
-
-Open a browser and go to http://your-vm-ip/phpinfo.php. If PHP is configured correctly, you’ll see the PHP information page.
-Install MySQL:
-Download and install MySQL from the official MySQL website.
-Choose the MySQL Server version and follow the installation steps to set up MySQL.
-Once installed, configure MySQL and set the root password.
-
-  
-  
-  
-  
-  
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php.ini file to enable necessary extensions, and verified by accessing the phpinfo.php page in the browser. MySQL was installed, configured, and the root password was set for secure database access.
 </p>
 <br />
 
@@ -82,25 +51,7 @@ Once installed, configure MySQL and set the root password.
 
 </p>
 <p>
-3
-  
-Create a MySQL Database for osTicket
-Log into MySQL: Open MySQL Command Line Client and log in with your root password.
-bash
-Copy
-mysql -u root -p
-
-
-Create the osTicket Database:
-sql
-Copy
-CREATE DATABASE osticket;
-CREATE USER 'osticket_user'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON osticket.* TO 'osticket_user'@'localhost';
-FLUSH PRIVILEGES;
-
-
-Replace osticket_user and password with your chosen username and password.
+The MySQL database for osTicket was successfully created. The database `osticket` was initialized, and a user `osticket_user` with the specified password was granted all privileges to the database. The necessary privileges were flushed to ensure proper access and functionality.
 
 </p>
 <br />
@@ -109,13 +60,7 @@ Replace osticket_user and password with your chosen username and password.
 
 </p>
 <p>
-4
-  
-Download and Install osTicket
-Download osTicket: Go to the osTicket download page and download the latest stable version.
-Extract osTicket Files: Extract the downloaded osTicket ZIP file to C:\inetpub\wwwroot\osticket (or any preferred directory in your IIS web root).
-Set Permissions: Ensure the include, attachments, and upload directories are writable by the web server (IIS).
-Right-click the folder, select Properties, then go to the Security tab and give Full Control to the IIS_IUSRS group.
+The latest stable version of osTicket was downloaded and extracted to the C:\inetpub\wwwroot\osticket directory on the IIS web root. Permissions were set to ensure the `include`, `attachments`, and `upload` directories were writable by the web server, granting Full Control to the IIS_IUSRS group for proper functionality.
 
 </p>
 <br />
@@ -124,20 +69,7 @@ Right-click the folder, select Properties, then go to the Security tab and give 
 
 </p>
 <p>
-5
-  
- Run the osTicket Installer
-Access the osTicket Installer: Open a browser and navigate to http://your-vm-ip/osticket to start the installation.
-Follow the Installation Steps:
-The osTicket installer will check for the necessary PHP and MySQL configurations.
-Database Configuration: Enter the database details (Database name osticket, Database user osticket_user, and the password you set earlier).
-Admin User Setup: Set up the Admin Email, Timezone, and create your Admin Username and Password for the osTicket admin dashboard.
-Finalize Installation: Complete the installation process, and osTicket will be ready for use.
-Post-Installation:
-Delete the setup folder: For security reasons, after the installation is complete, delete the setup directory from the osTicket installation folder.
-Test the system: Log in to the Admin Panel and verify ticket creation, email integration, and the overall functionality of osTicket.
-
-
+The osTicket installer was successfully run by navigating to http://your-vm-ip/osticket in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, osticket_user, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
 </p>
 <br />
 
@@ -145,8 +77,6 @@ Test the system: Log in to the Admin Panel and verify ticket creation, email int
 
 </p>
 <p>
-Optional Step: Set Up Domain Name and SSL
-If you want to use a custom domain (e.g., support.yourdomain.com), set up the DNS records to point to your Azure VM's public IP. You can also set up an SSL certificate using Let’s Encrypt or purchase an SSL certificate for secure communication.
 
 </p>
 <br />
