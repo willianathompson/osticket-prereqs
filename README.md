@@ -53,8 +53,8 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 <br />
 
 ![image](https://github.com/user-attachments/assets/119b37e9-3a84-4991-9f54-8cb9458dd5be)
-![image](https://github.com/user-attachments/assets/ef17dc1e-394-456d-aed5-ecae3cb14ffa)
-![image](https://github.com/user-attachments/assets/07832b07-a589-415e-b508-282f3591b029)
+![image](https://github.com/user-attachments/assets/9c8dceeb-5908-495b-a2c8-9775bc5373f0)
+
 
 </p>
 <p>
