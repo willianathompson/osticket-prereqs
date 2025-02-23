@@ -40,7 +40,10 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/48e85edf-df81-42d6-afa9-1fd62e8b0af1)
+![image](https://github.com/user-attachments/assets/30558d99-3f6c-4633-97fb-d845d4c1efd0)
+![image](https://github.com/user-attachments/assets/be0dfbf0-ac84-483f-9fa8-d94de27e11d3)
+![image](https://github.com/user-attachments/assets/119b37e9-3a84-4991-9f54-8cb9458dd5be)
+![image](https://github.com/user-attachments/assets/064df8b4-5f5e-4f82-b8e3-a3903ba68b45)
 
 </p>
 <p>
@@ -48,7 +51,8 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/02860ecb-626e-49d8-9000-cfb58d4e6fba)
+![image](https://github.com/user-attachments/assets/ef17dc1e-394-456d-aed5-ecae3cb14ffa)
+![image](https://github.com/user-attachments/assets/07832b07-a589-415e-b508-282f3591b029)
 
 </p>
 <p>
@@ -57,7 +61,9 @@ The MySQL database for osTicket was successfully created. The database `osticket
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/31cf31c0-7d5e-49f1-82a4-a5b5ab0ed2bc)
+![image](https://github.com/user-attachments/assets/d6fa2ebb-80e0-410b-9a49-9187f96e76ed)
+![image](https://github.com/user-attachments/assets/9fa8f92a-4f62-4d92-ad56-127c4bc56f7a)
+
 
 </p>
 <p>
@@ -66,7 +72,9 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/94771711-7c1b-4ed7-b4b4-622891ae71ab)
+![image](https://github.com/user-attachments/assets/c1ad9db6-fe35-48f6-8072-c6c3688e4a43)
+![image](https://github.com/user-attachments/assets/1df63fd6-d332-452b-8129-5ad2332a3c2b)
+
 
 </p>
 <p>
@@ -74,7 +82,7 @@ The osTicket installer was successfully run by navigating to http://your-vm-ip/o
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/e90b4022-cc29-4577-a8d3-7f9859f33b2b)
+
 
 </p>
 <p>
@@ -82,11 +90,6 @@ The osTicket installer was successfully run by navigating to http://your-vm-ip/o
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/ca39c679-fd31-438c-ab31-4d9d840c09ff)
 
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
