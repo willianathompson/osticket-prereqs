@@ -40,11 +40,10 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/30558d99-3f6c-4633-97fb-d845d4c1efd0)
-![image](https://github.com/user-attachments/assets/be0dfbf0-ac84-483f-9fa8-d94de27e11d3)
-![image](https://github.com/user-attachments/assets/b4d143ca-4545-4034-ab93-5db1ac816dde)
-![image](https://github.com/user-attachments/assets/844de140-48b5-47cb-a422-e99e98bc3a38)
-
+![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
+![image](https://github.com/user-attachments/assets/ca704747-6847-4f3a-9b08-d1d0ba66dbf0)
+![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
+![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6)
 
 </p>
 <p>
@@ -52,9 +51,9 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/119b37e9-3a84-4991-9f54-8cb9458dd5be)
-![image](https://github.com/user-attachments/assets/9c8dceeb-5908-495b-a2c8-9775bc5373f0)
-
+![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
+![image](https://github.com/user-attachments/assets/b1a74234-381a-493c-bdee-f3782a0c6ec6)
+![image](https://github.com/user-attachments/assets/0c72235c-6009-41c3-8479-4dccf41cbfd8)
 
 </p>
 <p>
@@ -63,8 +62,8 @@ The MySQL database for osTicket was successfully created. The database `osticket
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/d6fa2ebb-80e0-410b-9a49-9187f96e76ed)
-![image](https://github.com/user-attachments/assets/9fa8f92a-4f62-4d92-ad56-127c4bc56f7a)
+![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
+![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
 
 
 </p>
@@ -74,8 +73,9 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/c1ad9db6-fe35-48f6-8072-c6c3688e4a43)
-![image](https://github.com/user-attachments/assets/1df63fd6-d332-452b-8129-5ad2332a3c2b)
+![image](https://github.com/user-attachments/assets/8d5f5e23-e28f-48f3-920c-5fa0dd52641b)
+![image](https://github.com/user-attachments/assets/c44619b9-dd44-45f2-9bf2-b5f8d0bbf188)
+
 
 
 </p>
