@@ -42,8 +42,9 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 
 ![image](https://github.com/user-attachments/assets/30558d99-3f6c-4633-97fb-d845d4c1efd0)
 ![image](https://github.com/user-attachments/assets/be0dfbf0-ac84-483f-9fa8-d94de27e11d3)
-![image](https://github.com/user-attachments/assets/119b37e9-3a84-4991-9f54-8cb9458dd5be)
-![image](https://github.com/user-attachments/assets/064df8b4-5f5e-4f82-b8e3-a3903ba68b45)
+![image](https://github.com/user-attachments/assets/b4d143ca-4545-4034-ab93-5db1ac816dde)
+![image](https://github.com/user-attachments/assets/844de140-48b5-47cb-a422-e99e98bc3a38)
+
 
 </p>
 <p>
@@ -51,6 +52,7 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/119b37e9-3a84-4991-9f54-8cb9458dd5be)
 ![image](https://github.com/user-attachments/assets/ef17dc1e-394-456d-aed5-ecae3cb14ffa)
 ![image](https://github.com/user-attachments/assets/07832b07-a589-415e-b508-282f3591b029)
 
