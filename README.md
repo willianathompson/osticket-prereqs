@@ -29,12 +29,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Run the osTicket installer
 
 <h2>Installation Steps</h2>
+</p>
+<p>
 
+</p>
+<br />
 
 ![image](https://github.com/user-attachments/assets/5235455c-130b-43d3-9615-51a1cae68b2a)
 
 
-
+</p>
 <p>
 The Windows 10 Virtual Machine was successfully created in Azure, with the appropriate VM size, region, and configuration settings. Public IP was enabled, and RDP access was set up for remote connection. The VM was deployed and is ready for use.  
 </p>
@@ -47,7 +51,7 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 
 </p>
 <p>
-IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php.ini file to enable necessary extensions, and verified by accessing the phpinfo.php page in the browser. MySQL was installed, configured, and the root password was set for secure database access.
+IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php_imap, php_inti file, php_opcache to enable necessary extensions. MySQL was installed, configured, and the root password was set for secure database access.
 </p>
 <br />
 
@@ -57,7 +61,7 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 
 </p>
 <p>
-The MySQL database for osTicket was successfully created. The database `osticket` was initialized, and a user `osticket_user` with the specified password was granted all privileges to the database. The necessary privileges were flushed to ensure proper access and functionality.
+The MySQL database for osTicket was successfully created. The database `osticket` was initialized, and a user `labuser` with the specified password was granted all privileges to the database. The necessary privileges were refreshed to ensure proper access and functionality.
 
 </p>
 <br />
@@ -80,7 +84,7 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 
 </p>
 <p>
-The osTicket installer was successfully run by navigating to http://your-vm-ip/osticket in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, osticket_user, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
+The osTicket installer was successfully run by navigating to http://your-vm-ip/osticket in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, labuser, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
 </p>
 <br />
 
