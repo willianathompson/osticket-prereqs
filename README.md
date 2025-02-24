@@ -84,7 +84,7 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 
 </p>
 <p>
-The osTicket installer was successfully run by navigating to http://your-vm-ip/osticket in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, labuser, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
+The osTicket installer was successfully run by navigating to (http://localhost/osTicket/scp/login.php) in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, labuser, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
 </p>
 <br />
 
