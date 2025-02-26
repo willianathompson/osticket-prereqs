@@ -51,7 +51,9 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 
 </p>
 <p>
-IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php_imap, php_inti, php_opcache file to enable necessary extensions. MySQL was installed, configured, and the root password was set for secure database access.
+  
+IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was turned on using the "Turn Windows features on or off" settings. PHP was downloaded and extracted to the C:\PHP folder, then configured by editing files like php_imap, php_ini, and php_opcache to enable the needed extensions. MySQL was installed, set up, and the root password was created for secure database access.
+
 </p>
 <br />
 
@@ -61,7 +63,8 @@ IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was en
 
 </p>
 <p>
-The MySQL database for osTicket was successfully created. The database `osticket` was initialized, and a user `labuser` with the specified password was granted all privileges to the database. The necessary privileges were refreshed to ensure proper access and functionality.
+  
+The MySQL database for osTicket was successfully created. The "osticket" database was set up, and a user called "labuser" was given full access to it with the specified password. The privileges were refreshed to make sure everything worked properly and the user had the correct access.
 
 </p>
 <br />
@@ -72,7 +75,8 @@ The MySQL database for osTicket was successfully created. The database `osticket
 
 </p>
 <p>
-The latest stable version of osTicket was downloaded and extracted to the C:\inetpub\wwwroot\osticket directory on the IIS web root. Permissions were set to ensure the `include`, `attachments`, and `upload` directories were writable by the web server, granting Full Control to the IIS_IUSRS group for proper functionality.
+
+The latest stable version of osTicket was downloaded and extracted to the C:\inetpub\wwwroot\osticket directory on the IIS web server. Permissions were set to make sure the "include", "attachments", and "upload" folders were writable by the web server. Full Control was given to the IIS_IUSRS group to ensure everything worked correctly.
 
 </p>
 <br />
@@ -84,7 +88,9 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 
 </p>
 <p>
-The osTicket installer was successfully run by navigating to (http://localhost/osTicket/scp/login.php) in the browser. During installation, the necessary PHP and MySQL configurations were verified, and the database details (osticket, labuser, and the set password) were entered. The Admin user setup was completed with the creation of an Admin Username, Password, and Email, along with setting the Timezone. After finalizing the installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to verify ticket creation, email integration, and overall functionality.
+  
+The osTicket installer was successfully run by going to http://localhost/osTicket/scp/login.php in the browser. During the setup, the required PHP and MySQL settings were checked, and the database details (osticket, labuser, and the password) were entered. The Admin user was set up by creating an Admin username, password, and email, and selecting the correct timezone. After finishing the installation, the setup folder was deleted for security reasons. Finally, the system was tested by logging into the Admin Panel to make sure ticket creation, email integration, and everything else worked as expected.
+  
 </p>
 <br />
 
