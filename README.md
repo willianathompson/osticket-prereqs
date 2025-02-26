@@ -92,12 +92,3 @@ The osTicket installer was successfully run by going to http://localhost/osTicke
 
 
 
-</p>
-<p>
-
-</p>
-<br />
-
-
-
-
