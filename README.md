@@ -51,7 +51,7 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 
 </p>
 <p>
-IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php_imap, php_inti file, php_opcache to enable necessary extensions. MySQL was installed, configured, and the root password was set for secure database access.
+IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was enabled through the "Turn Windows features on or off" settings. PHP was downloaded, extracted to the C:\PHP folder, configured by editing the php_imap, php_inti, php_opcache file to enable necessary extensions. MySQL was installed, configured, and the root password was set for secure database access.
 </p>
 <br />
 
