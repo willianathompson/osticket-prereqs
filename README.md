@@ -66,7 +66,7 @@ The MySQL database for osTicket was successfully created. The "osticket" databas
 <br />
 
 ![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
-![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
+
 
 
 </p>
