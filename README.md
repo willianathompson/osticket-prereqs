@@ -37,20 +37,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-The Windows 10 Virtual Machine is created in Azure with the appropriate VM size, region, and configuration settings. Public IP is enabled, and RDP access is set up for remote connection. The VM is deployed and ready for use. Use the link below to download the latest osTicket.zip files to the desktop.
+The Windows 10 Virtual Machine is created in Azure with the appropriate VM size, region, and configuration settings. Public IP is enabled, and RDP access is set up for remote connection. The VM is deployed and ready for use. Use the link below to download the latest osTicket.zip files to the desktop and extract all.
+</p>
+<p>
+  
 [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/2d837218-60f7-4f58-9985-8ce9eb4eba10)
 
-On your Windows 10 VM, open the Control Panel, go to Programs, and select Turn Windows features on or off. 
+On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows features on or off. Ensure that Internet Information Services, World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
+
+
+![image](https://github.com/user-attachments/assets/90583efe-5dcf-4da9-80ce-396c488f29f4)
+
+</p>
+<p>
+Check the loopback IP address (127.0.0.1) in your web browser to verify that IIS is ready.
+
+ 
 ![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
 
 </p>
 <p>
 
-On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows features on or off. Ensure that Internet Information Services, World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
+
 
   
   
