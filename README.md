@@ -130,6 +130,9 @@ Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select
 
 Go to the installation folder on the desktop, install, and launch HeidiSQL. In HeidiSQL, click New, enter the root username and password, then click Open. Click on Unnamed, and create a new database named osTicket.
 
+![image](https://github.com/user-attachments/assets/f413989b-be9a-4de5-bd28-2b7ad014cbd5)
+
+Go to IIS Server > Sites > Default > osTicket, and click on Browse *:80 (http). This will open a new tab in the browser with the osTicket welcome page.
 
 
 Navigate to the osTicket site in your browser, click Continue, and enter the Help Desk Name, Default Email, Admin Name, Email Address, Username, and Password. In the Database Settings, enter osTicket for the database name, along with the root username and password, then click Install. 
@@ -146,8 +149,9 @@ After installation, the setup folder was deleted for security, and the system wa
 
 
 
-
+A
 ![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
+B
 ![image](https://github.com/user-attachments/assets/b1a74234-381a-493c-bdee-f3782a0c6ec6)
 
 
@@ -168,9 +172,10 @@ The MySQL database for osTicket was successfully created. The "osticket" databas
 
 </p>
 <br />
+C
 
 ![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
-
+D
 ![image](https://github.com/user-attachments/assets/65504b4f-3ded-4954-bc27-01ce1a2415fd)
 
 </p>
@@ -180,8 +185,11 @@ The latest stable version of osTicket was downloaded and extracted to the C:\ine
 
 </p>
 <br />
+E
 
 ![image](https://github.com/user-attachments/assets/8d5f5e23-e28f-48f3-920c-5fa0dd52641b)
+F
+
 ![image](https://github.com/user-attachments/assets/c44619b9-dd44-45f2-9bf2-b5f8d0bbf188)
 
 
