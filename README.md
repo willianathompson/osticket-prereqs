@@ -109,6 +109,23 @@ Select Register New PHP Version, browse to the PHP folder on the C: drive, selec
 </p>
 <br />
 
+
+![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
+
+Navigate to the installation folder and extract the osTicket folder, which will contain two folders: scripts and upload. Copy the upload folder to Windows (C:) > inetpub > wwwroot and rename it to "osTicket". Then, start and stop IIS.
+
+
+
+
+
+
+Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select PHP Extensions. Click Enable or Disable Extension and enable the following: php_imap, php_intl, and php_opcache. Finally, refresh IIS.
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
 ![image](https://github.com/user-attachments/assets/b1a74234-381a-493c-bdee-f3782a0c6ec6)
 
