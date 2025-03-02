@@ -89,32 +89,42 @@ Install MySQL from the installation folder and make sure to select the Standard 
 
 During the MySQL installation setup, it is important to set up a root username and password for the database connection. Select the default username 'root', choose a password, and proceed with the installation.
 
-![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87) 
  </p>
 <p> 
 
+![image](https://github.com/user-attachments/assets/0c72235c-6009-41c3-8479-4dccf41cbfd8)
 
+Navigate to the Start menu, search for IIS, open it as an administrator, and click on PHP Manager.
 
-Use the link below to download the latest PHP version and extract the zip file to C:\PHP. Edit php.ini to adjust settings like display_errors, max_execution_time, and upload_max_filesize. Uncomment php_imap.ini to enable IMAP and php_opcache.ini for better performance. Save the changes.
+</p>
+<p>
 
-
-
-
+![image](https://github.com/user-attachments/assets/beefab68-5528-487f-bda8-10e72cfdc04d)
 
 </p>
 <p>
   
-IIS, PHP, and MySQL were successfully installed on the Windows 10 VM. IIS was turned on using the "Turn Windows features on or off" settings. PHP was downloaded and extracted to the C:\PHP folder, then configured by editing files like php_imap, php_ini, and php_opcache to enable the needed extensions. MySQL was installed, set up, and the root password was created for secure database access.
+Select Register New PHP Version, browse to the PHP folder on the C: drive, select the php-cgi file, click OK, and then click Start/Stop in IIS.
 
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
 ![image](https://github.com/user-attachments/assets/b1a74234-381a-493c-bdee-f3782a0c6ec6)
-![image](https://github.com/user-attachments/assets/0c72235c-6009-41c3-8479-4dccf41cbfd8)
+
 
 </p>
 <p>
+
+
+
+
+
+
+
+
+
+
   
 The MySQL database for osTicket was successfully created. The "osticket" database was set up, and a user called "labuser" was given full access to it with the specified password. The privileges were refreshed to make sure everything worked properly and the user had the correct access.
 
