@@ -99,6 +99,11 @@ Navigate back to the installation folder and install Microsoft Visual C++.
 <p>
 Install MySQL from the installation folder and make sure to select the Standard Configuration during the setup.
 
+</p>
+<p>
+
+</p>
+<br />
 <h4>Create a MySQL database for osTicket</h4>
 
 ![image](https://github.com/user-attachments/assets/290794a5-ce80-43a5-8bdb-19b04cdb7db7)
@@ -125,6 +130,9 @@ Navigate to the Start menu, search for IIS, open it as an administrator, and cli
 <p>
   
 Select Register New PHP Version, browse to the PHP folder on the C: drive, select the php-cgi file, click OK, and then click Start/Stop in IIS.
+
+</p>
+<p>
 
 </p>
 <br />
@@ -159,8 +167,12 @@ Right-click the ost-config.php file, select Properties, remove all inheritance, 
 </p>
 <p>
 Go to the installation folder on the desktop, install, and launch HeidiSQL. In HeidiSQL, click New, enter the root username and password, then click Open. Click on Unnamed, and create a new database named osTicket.
+
 </p>
 <p>
+
+</p>
+<br />
 <h4>Run the osTicket installer</h4>
 
 ![image](https://github.com/user-attachments/assets/8bf64098-7af3-438b-ab43-ab3f203d9324)
