@@ -41,6 +41,11 @@ The Windows 10 Virtual Machine was successfully created in Azure, with the appro
 <br />
 
 ![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
+
+</p>
+<p>
+  
+
 ![image](https://github.com/user-attachments/assets/ca704747-6847-4f3a-9b08-d1d0ba66dbf0)
 ![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
 ![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6)
