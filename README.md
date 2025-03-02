@@ -112,7 +112,7 @@ Select Register New PHP Version, browse to the PHP folder on the C: drive, selec
 
 ![image](https://github.com/user-attachments/assets/896e6336-40f7-477d-a4bb-797264a881b6)
 
-Navigate to the installation folder and extract the osTicket folder, which will contain two folders: scripts and upload. Copy the upload folder to Windows (C:) > inetpub > wwwroot and rename it to "osTicket". Then, start and stop IIS.
+Navigate to the installation folder and extract the osTicket folder, which will contain two folders: scripts and upload. Copy the upload folder to Windows (C:) > inetpub > wwwroot and rename it to "osTicket". Then, start/stop in IIS.
 
 
 
