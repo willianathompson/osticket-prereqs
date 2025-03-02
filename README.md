@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-The Windows 10 Virtual Machine is created in Azure with the appropriate VM size, region, and configuration settings. Public IP is enabled, and RDP access is set up for remote connection. The VM is deployed and ready for use. Use the link below to download the latest osTicket.zip files to the desktop and extract all.
+The Windows 10 Virtual Machine is created in Azure with the appropriate VM size, region, and configuration settings. Public IP is enabled, and RDP access is set up for remote connection. The VM is deployed and ready for use. Use the link below to download the latest osTicketinstallation.zip files to the desktop and extract all.
 </p>
 <p>
   
