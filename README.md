@@ -194,5 +194,6 @@ After installation, the setup folder should be deleted for security, and the sys
 <p>
 <br>
   
-Please continue to osTicket: Post-Installation Configuration
-[Link](https://github.com/willianathompson/osticket-Post-Install-Config)
+[osTicket: Post-Installation Configuration](https://github.com/willianathompson/osticket-Post-Install-Config)
+
+
