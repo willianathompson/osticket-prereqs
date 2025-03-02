@@ -62,7 +62,12 @@ Check the loopback IP address (127.0.0.1) in your web browser to verify that IIS
 </p>
 <p>
 
+From the extracted osTicket files, install PHP Manager using the installer in the PHP Manager folder.
 
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
 
   
   
@@ -79,7 +84,7 @@ Check the loopback IP address (127.0.0.1) in your web browser to verify that IIS
 Use the link below to download the latest PHP version and extract the zip file to C:\PHP. Edit php.ini to adjust settings like display_errors, max_execution_time, and upload_max_filesize. Uncomment php_imap.ini to enable IMAP and php_opcache.ini for better performance. Save the changes.
 
 
-![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
+
 ![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6)
 
 </p>
