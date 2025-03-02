@@ -116,14 +116,14 @@ Navigate to the installation folder and extract the osTicket folder, which will 
 
 
 
-
+Image needed
 
 
 Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select PHP Extensions. Click Enable or Disable Extension and enable the following: php_imap, php_intl, and php_opcache. Finally, refresh IIS.
 
 
 
-
+Navigate to Windows (C:) > inetpub > wwwroot > osTicket, find the ost-sampleconfig.php file and rename it to ost-config.php. Right-click the file, select Properties, remove all inheritance, click Add, select Principal, type admin, and apply Full Control.
 
 
 ![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
