@@ -56,8 +56,7 @@ On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows fe
 <p>
 Check the loopback IP address (127.0.0.1) in your web browser to verify that IIS is ready.
 
- 
-![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
+![image](https://github.com/user-attachments/assets/ca704747-6847-4f3a-9b08-d1d0ba66dbf0)
 
 </p>
 <p>
@@ -66,26 +65,41 @@ From the extracted osTicket files, install PHP Manager using the installer in th
 
 </p>
 <p>
+  
+![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6) 
 
+</p>
+<p>
+  
+Create a new folder named PHP for the compressed PHP files. Navigate to 'This PC > Windows (C:) > PHP' and extract all the files from the compressed PHP folder.
+
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/133df083-fdde-4c4c-9daf-2680db99663a)
+
+Navigate back to the installation folder and install Microsoft Visual C++.
+  
 ![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
+  
+Install MySQL from the installation folder and make sure to select the Standard Configuration during the setup.
 
-  
-  
-  
-  
-  
-  
- 
+
+![image](https://github.com/user-attachments/assets/290794a5-ce80-43a5-8bdb-19b04cdb7db7)
+
+During the MySQL installation setup, it is important to set up a root username and password for the database connection. Select the default username 'root', choose a password, and proceed with the installation.
+
+![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87) 
  </p>
 <p> 
 
-![image](https://github.com/user-attachments/assets/ca704747-6847-4f3a-9b08-d1d0ba66dbf0)
+
 
 Use the link below to download the latest PHP version and extract the zip file to C:\PHP. Edit php.ini to adjust settings like display_errors, max_execution_time, and upload_max_filesize. Uncomment php_imap.ini to enable IMAP and php_opcache.ini for better performance. Save the changes.
 
 
 
-![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6)
+
 
 </p>
 <p>
