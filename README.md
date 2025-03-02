@@ -30,23 +30,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <br />
+<h3>Create a Virtual Machine in Azure</h3>
 
 ![image](https://github.com/user-attachments/assets/5235455c-130b-43d3-9615-51a1cae68b2a)
-
-
-</p>
-<p>
-The Windows 10 Virtual Machine was successfully created in Azure, with the appropriate VM size, region, and configuration settings. Public IP was enabled, and RDP access was set up for remote connection. The VM was deployed and is ready for use.  
-</p>
-<br />
-
-![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
 
 </p>
 <p>
   
+The Windows 10 Virtual Machine is created in Azure with the appropriate VM size, region, and configuration settings. Public IP is enabled, and RDP access is set up for remote connection. The VM is deployed and ready for use. Use the link below to download the latest osTicket.zip files to the desktop.
+[link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/2d837218-60f7-4f58-9985-8ce9eb4eba10)
+
+On your Windows 10 VM, open the Control Panel, go to Programs, and select Turn Windows features on or off. 
+![image](https://github.com/user-attachments/assets/f7ed5859-f8d2-491b-b333-d71bd9d1fc87)
+
+</p>
+<p>
+
+On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows features on or off. Ensure that Internet Information Services, World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
+
+  
+  
+  
+  
+  
+  
+ 
+ </p>
+<p> 
 
 ![image](https://github.com/user-attachments/assets/ca704747-6847-4f3a-9b08-d1d0ba66dbf0)
+
+Use the link below to download the latest PHP version and extract the zip file to C:\PHP. Edit php.ini to adjust settings like display_errors, max_execution_time, and upload_max_filesize. Uncomment php_imap.ini to enable IMAP and php_opcache.ini for better performance. Save the changes.
+
+
 ![image](https://github.com/user-attachments/assets/5a225435-901c-4f26-a22f-c4b4836c13de)
 ![image](https://github.com/user-attachments/assets/c31473b0-cc6d-42aa-8ab0-988d1b42dba6)
 
