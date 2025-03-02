@@ -116,14 +116,35 @@ Navigate to the installation folder and extract the osTicket folder, which will 
 
 
 
-Image needed
+![image](https://github.com/user-attachments/assets/e197f3ef-466f-4c00-ad4a-4fc295d17e71)
 
 
-Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select PHP Extensions. Click Enable or Disable Extension and enable the following: php_imap, php_intl, and php_opcache. Finally, refresh IIS.
+Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select PHP Extensions. Click Enable or Disable Extension and enable the following: php_imap, php_intl, and php_opcache. Finally, refresh IIS. Navigate to Windows (C:) > inetpub > wwwroot > osTicket > include, find the ost-sampleconfig.php file and rename it to ost-config.php.
+
+![image](https://github.com/user-attachments/assets/65504b4f-3ded-4954-bc27-01ce1a2415fd)
+
+ Right-click the ost-config.php file, select Properties, remove all inheritance, click Add, select Principal, type "admin", and apply Full Control.
+
+
+![image](https://github.com/user-attachments/assets/cc248045-c37d-44a8-bb6b-39333da3080f)
+
+Go to the installation folder on the desktop, install, and launch HeidiSQL. In HeidiSQL, click New, enter the root username and password, then click Open. Click on Unnamed, and create a new database named osTicket.
 
 
 
-Navigate to Windows (C:) > inetpub > wwwroot > osTicket, find the ost-sampleconfig.php file and rename it to ost-config.php. Right-click the file, select Properties, remove all inheritance, click Add, select Principal, type admin, and apply Full Control.
+Navigate to the osTicket site in your browser, click Continue, and enter the Help Desk Name, Default Email, Admin Name, Email Address, Username, and Password. In the Database Settings, enter osTicket for the database name, along with the root username and password, then click Install. 
+
+
+
+
+
+
+After installation, the setup folder was deleted for security, and the system was tested by logging into the Admin Panel to ensure ticket creation, email integration, and other features worked correctly.
+
+
+
+
+
 
 
 ![image](https://github.com/user-attachments/assets/cbb716c1-0d07-450f-ab93-de974437beba)
