@@ -188,7 +188,8 @@ Go to IIS Server > Sites > Default > osTicket, and click on Browse *:80 (http). 
 </p>
 <p>
 Navigate to the osTicket site in your browser, click Continue, and enter the Help Desk Name, Default Email, Admin Name, Email Address, Username, and Password. In the Database Settings, enter osTicket for the database name, along with the root username and password, then click Install. 
-<br>
+<p>
+  <p/>
 After installation, the setup folder should be deleted for security, and the system was tested by logging into the Admin Panel to ensure ticket creation, email integration, and other features worked correctly.
   </p>
 <p>
