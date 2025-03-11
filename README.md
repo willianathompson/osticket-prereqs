@@ -183,7 +183,7 @@ Go to IIS Server > Sites > Default > osTicket, and click on Browse *:80 (http). 
 </p>
 <p>
 
-![image](https://github.com/user-attachments/assets/31cf31c0-7d5e-49f1-82a4-a5b5ab0ed2bc)
+![image](https://github.com/user-attachments/assets/94771711-7c1b-4ed7-b4b4-622891ae71ab)
 
 </p>
 <p>
