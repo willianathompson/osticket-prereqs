@@ -54,7 +54,7 @@ The Windows 10 Virtual Machine is created in Azure with the appropriate VM size,
 </p>
 <p>
 
-On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows features on or off. Ensure that Internet Information Services (IIS), World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
+On your Windows 10 VM, go to **Control Panel > Programs** and select **Turn Windows features on or off**. Ensure that Internet Information Services (IIS), World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
 
 </p>
 <p>
@@ -82,7 +82,7 @@ From the extracted osTicket files, install PHP Manager using the installer in th
 </p>
 <p>
   
-Create a new folder named PHP for the compressed PHP files. Navigate to 'This PC > Windows (C:) > PHP' and extract all the files from the compressed PHP folder.
+Create a new folder named **PHP** for the compressed PHP files. Navigate to **This PC > Windows (C:) > PHP** and extract all the files from the compressed PHP folder.
 
 </p>
 <p>
