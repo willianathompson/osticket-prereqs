@@ -53,7 +53,9 @@ The Windows 10 Virtual Machine is created in Azure with the appropriate VM size,
 
 </p>
 <p>
+
 On your Windows 10 VM, go to Control Panel > Programs and select Turn Windows features on or off. Ensure that Internet Information Services (IIS), World Wide Web Services, and CGI are all checked. IIS will then be ready to serve web content.
+
 </p>
 <p>
 
