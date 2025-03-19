@@ -112,7 +112,8 @@ Install MySQL from the installation folder and make sure to select the Standard 
 
 </p>
 <p>
-During the MySQL installation setup, it is important to set up a root username and password for the database connection. Select the default username 'root', choose a password, and proceed with the installation.
+  
+During the MySQL installation setup, it is important to set up a root username and password for the database connection. Select the default username **"root"**, choose a password, and proceed with the installation.
 
  </p>
 <p> 
@@ -131,7 +132,7 @@ Navigate to the Start menu, search for IIS, open it as an administrator, and cli
 </p>
 <p>
   
-Select Register New PHP Version, browse to the PHP folder on the C: drive, select the php-cgi file, click OK, and then click Start/Stop in IIS.
+Select Register New PHP Version, browse to the PHP folder on the C: drive, select the **php-cgi** file, click OK, and then click Start/Stop in IIS.
 
 </p>
 <p>
@@ -144,7 +145,9 @@ Select Register New PHP Version, browse to the PHP folder on the C: drive, selec
 
 </p>
 <p>
-Navigate to the installation folder and extract the osTicket folder, which will contain two folders: scripts and upload. Copy the upload folder to Windows (C:) > inetpub > wwwroot and rename it to "osTicket". Then, start/stop in IIS.
+  
+Navigate to the installation folder and extract the osTicket folder, which will contain two folders: scripts and upload. Copy the upload folder to **Windows (C:) > inetpub > wwwroot** and rename it to **"osTicket"**. Then, start/stop in IIS.
+
 </p>
 <p>
 
@@ -152,7 +155,9 @@ Navigate to the installation folder and extract the osTicket folder, which will 
 
 </p>
 <p>
-Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select PHP Extensions. Click Enable or Disable Extension and enable the following: php_imap, php_intl, and php_opcache. Finally, refresh IIS. Navigate to Windows (C:) > inetpub > wwwroot > osTicket > include, find the ost-sampleconfig.php file and rename it to ost-config.php.
+  
+Go to **IIS Server > Sites > Default > osTicket**, click on **PHP Manager**, then select **PHP Extensions**. Click **Enable or Disable Extension** and enable the following: **php_imap**, **php_intl**, and **php_opcache**. Finally, refresh IIS. Navigate to **Windows (C:) > inetpub > wwwroot > osTicket > include**, find the **ost-sampleconfig.php** file and rename it to **ost-config.php**.
+
 </p>
 <p>
 
@@ -160,7 +165,9 @@ Go to IIS Server > Sites > Default > osTicket, click on PHP Manager, then select
 
 </p>
 <p>
-Right-click the ost-config.php file, select Properties, remove all inheritance, click Add, select Principal, type "admin", and apply Full Control.
+  
+Right-click the **ost-config.php** file, select Properties, remove all inheritance, click Add, select Principal, type **"admin"**, and apply Full Control.
+
 </p>
 <p>
 
@@ -168,7 +175,8 @@ Right-click the ost-config.php file, select Properties, remove all inheritance, 
 
 </p>
 <p>
-Go to the installation folder on the desktop, install, and launch HeidiSQL. In HeidiSQL, click New, enter the root username and password, then click Open. Click on Unnamed, and create a new database named osTicket.
+  
+Go to the installation folder on the desktop, install, and launch HeidiSQL. In HeidiSQL, click New, enter the root username and password, then click Open. Click on Unnamed, and create a new database named **osTicket**.
 
 </p>
 <p>
@@ -181,7 +189,8 @@ Go to the installation folder on the desktop, install, and launch HeidiSQL. In H
 
 </p>
 <p>
-Go to IIS Server > Sites > Default > osTicket, and click on Browse *:80 (http). This will open a new tab in the browser with the osTicket welcome page.
+  
+Go to **IIS Server > Sites > Default > osTicket**, and click on **Browse *:80 (http)**. This will open a new tab in the browser with the osTicket welcome page.
 </p>
 <p>
 
