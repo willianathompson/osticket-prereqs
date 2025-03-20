@@ -204,11 +204,12 @@ Navigate to the osTicket site in your browser, click Continue, and enter the Hel
 After installation, the setup folder should be deleted for security, and the system was tested by logging into the Admin Panel to ensure ticket creation, email integration, and other features worked correctly.
   </p>
 <p>
-<br>
-The osTicket system is installed and ready for configuration. Please use the link below to proceed with the post-configuration of the osTicket system.
+The osTicket system is now installed and ready for configuration. Use the link below to proceed with the post-installation configuration of the system.
 <p>
   <p/>
     
 [osTicket: Post-Installation Configuration](https://github.com/willianathompson/osticket-Post-Install-Config)
 
-
+<p>
+  <p/>
+<br>
